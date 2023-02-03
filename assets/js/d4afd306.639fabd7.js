@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhans_renolution=self.webpackChunkhans_renolution||[]).push([[873],{9826:l=>{l.exports=JSON.parse('{"label":"hello","permalink":"/HansRenolution/blog/tags/hello","allTagsPath":"/HansRenolution/blog/tags","count":2}')}}]);
