@@ -4,7 +4,6 @@ sidebar_position: 10
 sidebar_label: 在 .Net 7 Web api 使用 JWT
 description: 在 .Net 7 Web api 使用 JWT 驗證授權
 tags: [article, jwt, Net7]
-draft: true
 authors: H.J
 ---
 
