@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhans_renolution=self.webpackChunkhans_renolution||[]).push([[4121],{8070:n=>{n.exports=JSON.parse('[{"label":"reactjs","permalink":"/HansRenolution/docs/tags/reactjs","count":1},{"label":"tutorial","permalink":"/HansRenolution/docs/tags/tutorial","count":1}]')}}]);
