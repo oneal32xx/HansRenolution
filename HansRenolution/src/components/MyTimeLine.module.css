@@ -1,0 +1,74 @@
+.title {
+    font-size: clamp(2rem, 3vw + 1rem, 3rem);
+    text-align: center;
+    margin-bottom: 4rem;
+    color: black;
+  }
+  
+  .experienceContainer {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    /* background: #00000052; */
+    /* background-color: gainsboro; */
+  }
+  
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+  }
+  
+  .iconImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 30px;
+  }
+  
+  .experienceTitle {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  html[data-theme='dark'] .experienceTitle {
+    color: #ffffff;
+  } 
+
+  .experienceName {
+    color: rgb(170 166 195 / 1);
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .experiencePointsContainer {
+    margin-top: 1.25rem;
+    list-style-type: disc;
+    margin-left: 1.25rem;
+  }
+  
+  .experiencePoint {
+    text-align: justify;
+    color: #000000;
+    font-size: 16px;
+    padding-left: 0.25rem;
+    letter-spacing: 0.05em;
+  }
+
+  html[data-theme='dark']  .experiencePoint {
+    color: #ffffff;
+  }
+
+  /* .contentStyle{
+    background: #444950;
+    color: "#fff" ;
+  } */
+
+  .contentArrowStyle{
+    border-right: "7px solid #444950";
+  }

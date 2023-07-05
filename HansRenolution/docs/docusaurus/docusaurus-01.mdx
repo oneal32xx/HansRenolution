@@ -1,0 +1,51 @@
+---
+title:  Docusaurus 客製化設定
+sidebar_position: 10
+sidebar_label: Docusaurus 客製化設定
+description: 這個網站修改的地方
+tags: [article, docusaurus]
+draft: true
+authors: H.J
+---
+
+
+### 基本設定
+
+基本設定都在資料夾根目錄的 `docusaurus.config.js` 檔案裡，包含 title、tagline、url、favicon等等.
+像我們設定`title: 'Hans-Revolution'`，一進首頁就會有Hans-Revolution的標題呈現在我們眼前
+
+```javascript title="docusaurus.config.js" showLineNumbers 
+(module.exports = {
+  title: 'Hans-Revolution',
+  tagline: '技術筆記、生活記事',
+  url: 'https://oneal32xx.github.io',
+  baseUrl: '/HansRenolution/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/HansRev.ico',
+  organizationName: 'oneal32xx', // Usually your GitHub org/user name.
+  projectName: 'HansRenolution', // Usually your repo name.
+...
+```
+
+### 樣式設定
+
+如果要客製化網站樣式，可以將CSS寫在 `src/css/custom.css` 檔案裡，
+像是要設定`class=Home__text`在DarkMode時的樣式，就可以用 `html[data-theme='dark']`當作前綴，
+網站切換成DarkMode時，就會讀取這段的樣式
+
+```css title="src/css/custom.css" showLineNumbers 
+.Home__text{
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
+  text-shadow: shadow1, shadow2, shadow3;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.6), 4px 4px 0px rgba(255, 255, 255, 0.5);
+}
+
+html[data-theme='dark'] .Home__text{
+  text-shadow: shadow1, shadow2, shadow3;
+  text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.8), 4px 4px 0px rgba(0,0,0,0.15);
+}
+
+```
+
