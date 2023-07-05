@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhans_renolution=self.webpackChunkhans_renolution||[]).push([[6274],{3472:e=>{e.exports=JSON.parse('{"permalink":"/HansRenolution/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
