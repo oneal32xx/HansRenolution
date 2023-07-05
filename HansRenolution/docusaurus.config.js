@@ -13,7 +13,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/HansRev.ico',
   organizationName: 'oneal32xx', // Usually your GitHub org/user name.
   projectName: 'HansRenolution', // Usually your repo name.
-
+  deploymentBranch: 'gh-pages',
   presets: [
     [
       '@docusaurus/preset-classic',
