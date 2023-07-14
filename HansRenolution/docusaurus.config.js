@@ -36,6 +36,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       }),
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-72JQNET9K0',
+        anonymizeIP: true,
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -58,10 +67,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         },
 
         items: [
-          {to: '/HansRenolution', label: '關於本站', position: 'left'},
+          //{to: '/HansRenolution/docs/about/about', label: '關於本站', position: 'left'},
           {
             type: "doc",
-            docId: "about",
+            docId: "about/about",
             position: "left",
             label: "技術筆記",
             // type: 'dropdown',

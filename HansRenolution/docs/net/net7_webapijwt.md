@@ -1,8 +1,8 @@
 ---
-title: 在 .Net 7 Web api 使用 JWT 驗證授權
+title: 如何在 Net 7 Web api 專案使用 JWT 驗證授權
 sidebar_position: 1
-sidebar_label: 在 .Net 7 Web api 使用 JWT
-description: 在 .Net 7 Web api 使用 JWT 驗證授權
+sidebar_label: 如何在 Net 7 Web api 專案使用 JWT 驗證授權
+description: 如何在 Net 7 Web api 專案使用 JWT 驗證授權
 tags: [article, jwt, Net7]
 authors: H.J
 ---

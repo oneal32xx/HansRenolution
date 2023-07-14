@@ -4,7 +4,6 @@ sidebar_position: 10
 sidebar_label: Docusaurus 客製化設定
 description: 這個網站修改的地方
 tags: [article, docusaurus]
-draft: true
 authors: H.J
 ---
 
@@ -49,3 +48,24 @@ html[data-theme='dark'] .Home__text{
 
 ```
 
+### 加入 Google Analytics
+
+安裝 docusaurus Google Analytics plugin 套件
+```bash
+npm install --save @docusaurus/plugin-google-gtag
+```
+
+設定 docusaurus.config.js, trackingID 填入自己在 Google 申請的 Id 即可
+```js title="docusaurus.config.js" showLineNumbers 
+  module.exports = {
+    plugins: [
+      [
+        '@docusaurus/plugin-google-gtag',
+        {
+          trackingID: 'G-999X9XX9XX',
+          anonymizeIP: true,
+        },
+      ],
+    ],
+  };
+```
