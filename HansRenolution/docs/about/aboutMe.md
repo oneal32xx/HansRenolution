@@ -7,11 +7,9 @@ tags: [article, resume, CV]
 authors: H.J
 ---
 
-個人網站 - Medium 文章撰寫平台
-https://medium.com/hans-revolution
+[個人網站 - Medium 文章撰寫平台](https://medium.com/hans-revolution)
 
-個人網站 - 基於 Dinosaurs 框架的個人網站
-https://oneal32xx.github.io/HansRenolution/
+[個人網站 - 基於 Dinosaurs 框架的個人網站](https://hansrevolution.dev/)
 
 # 我是誰？
 

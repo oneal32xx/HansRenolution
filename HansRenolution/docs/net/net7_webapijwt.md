@@ -2,7 +2,7 @@
 title: 如何在 Net 7 Web api 專案使用 JWT 驗證授權
 sidebar_position: 1
 sidebar_label: 如何在 Net 7 Web api 專案使用 JWT 驗證授權
-description: 如何在 Net 7 Web api 專案使用 JWT 驗證授權
+description: Net 7 Web api JWT 客製化使用方式
 tags: [article, jwt, Net7]
 authors: H.J
 ---

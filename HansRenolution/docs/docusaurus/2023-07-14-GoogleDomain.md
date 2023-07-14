@@ -1,8 +1,8 @@
 ---
-title:  Docusaurus 使用 Google Domain & GitHub Pages 自定義網域
+title: Docusaurus 使用 Google Domain & GitHub Pages 自定義網域
 sidebar_position: 10
-sidebar_label: Docusaurus 使用 Google Domain & GitHub Pages 自定義網域
-description: 這個網站修改的地方
+sidebar_label: 使用 Google Domain & GitHub Pages 自定義網域
+description: 自訂 Domain Nmae 創造專業形象
 tags: [article, Google Domain]
 authors: H.J
 ---
@@ -38,3 +38,9 @@ authors: H.J
 在設定完 Custom domain 之後，GitHub 會自動將 CNAME 產生並推送到我們的 depoly Repository，文件裡面就是我們剛剛設定的網域名稱，要特別注意的是
 這個檔案必須手動建立在我們 Docusaurus 專案裡面的 `static` 資料夾，這樣下次我們在 build 新版的時候，CNAME 檔案才會一併被產生，Custom domain 的設定才不會跑掉
 ![Google Domain](domain07.jpg)
+
+### 用新的網址連到自己的 GitHub Pages 試試
+
+有注意到如果用舊網址進來，GitHub Pages 會幫你自動轉到 Custom domain，這算是 GitHub 貼心的地方吧？！
+- 舊網址 https://oneal32xx.github.io/HansRenolution/
+- 新網址 https://hansrevolution.dev/

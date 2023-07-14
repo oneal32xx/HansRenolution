@@ -2,7 +2,7 @@
 title: .NET 微服務
 sidebar_position: 2
 sidebar_label: .NET 微服務
-description: .NET 微服務
+description: 研究研究 NET 微服務 
 tags: [article, microservice, Net7]
 authors: H.J
 draft: true
