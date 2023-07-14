@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'Hans-Revolution',
   tagline: '技術筆記、生活記事',
   url: 'https://oneal32xx.github.io',
-  baseUrl: '/HansRenolution/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/HansRev.ico',
