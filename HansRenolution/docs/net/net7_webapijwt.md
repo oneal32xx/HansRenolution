@@ -15,9 +15,9 @@ authors: H.J
 [[C#] JSON Web Token(JWT)認證(authentication)授權(authorization)](https://medium.com/hans-revolution/c-json-web-token-jwt-%E8%AA%8D%E8%AD%89-authentication-%E6%8E%88%E6%AC%8A-authorization-409b5c000032)
 
 這次使用的開發工具為Visual Studio 2022 for Mac，我們直接用 IDE 建立一個Ｗebapi專案
-![建立專案](./../assets/Net7CreateSln.png)  
+![建立專案](./../assets/Net7CreateSln.jpg)  
 直接執行偵錯，就會看到 Swagger 頁面 裏頭只有一隻 WeatherForecast API，到這邊，代表我們 Web API 專案已經建立成功了！如下圖  
-![Swagger 畫面](./../assets/swagger.png)
+![Swagger 畫面](./../assets/swagger.jpg)
 
 但這時候還沒有驗證的機制，所以接下來我們開始今天的重點！主要分為以下幾個重點
 
@@ -257,18 +257,18 @@ JwtMiddleware 擷取到 Header 中的 Authorization Bearer Token 時，就使用
 ### 測試 Jwt 驗證授權
 
 我們將寫好的程式 Run 起來，會看到我們剛剛新增的 Users API 已經在 Swagger Ui 列表上面了
-![Test Jwt](./../assets/Net7TestJwt.png)
+![Test Jwt](./../assets/Net7TestJwt.jpg)
 
 我們使用 Postman 來測試 API
 
 * 直接呼叫 Users，會發現 API 回傳 `401 Unauthorized` 因為我們還沒有經過授權，所以被擋了下來！
-![Login401](./../assets/Login401.png)
+![Login401](./../assets/Login401.jpg)
 
 * 模擬一下呼叫 Users/authenticate 來做登入，API 回傳 200 並將 Jwt Token 回傳給我們
-![Login200](./../assets/Login200.png)
+![Login200](./../assets/Login200.jpg)
 
 * 現在將 Jwt Token 放入Header中的 Bearer Token ，在呼叫一次 Users，會發現 API 回傳 200 並且將我們建立的假資料成功回傳！
-![GetUserOk](./../assets/GetUserOk.png)
+![GetUserOk](./../assets/GetUserOk.jpg)
 
 ### 總結
 
