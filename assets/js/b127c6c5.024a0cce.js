@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhans_renolution=self.webpackChunkhans_renolution||[]).push([[7996],{6324:e=>{e.exports=JSON.parse('{"title":"\u95dc\u65bc\u7ad9\u9577","slug":"/category/\u95dc\u65bc\u7ad9\u9577","permalink":"/docs/category/\u95dc\u65bc\u7ad9\u9577","navigation":{"next":{"title":"\u95dc\u65bc HansJiang","permalink":"/docs/about/aboutMe"}}}')}}]);
