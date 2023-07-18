@@ -8,7 +8,7 @@ authors: H.J
 ---
 
 
-#  MarkDown 筆記
+# MarkDown 筆記
 
 ## Code blocks
 
