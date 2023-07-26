@@ -1,23 +1,16 @@
 import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
+// import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-//import styles from './index.module.css';
+// import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
-import TimeLine from '../components/TimeLine';
-
+// import TimeLine from '../components/TimeLine';
 import BrowserOnly from "@docusaurus/BrowserOnly";
-
-
 import MyTimeLine from '../components/MyTimeLine';
 import MyTimeLineJson from "../Resource/MyTimeLine.json";
 
-import SchoolIcon from '@material-ui/icons/School';
-import WorkIcon from '@material-ui/icons/Work';
-import StarIcon from '@material-ui/icons/Star';
-
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+//import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import styles from './index.module.css';
 import '../css/VerticalTimeline.css'
@@ -156,9 +149,9 @@ export default function Home() {
 }
 
 const Loading = () => (
-  <div class="loading">
-    <div class="loadingio-spinner-rolling-f1v13ukb9js">
-      <div class="ldio-nawj84fd2cd">
+  <div className="loading">
+    <div className="loadingio-spinner-rolling-f1v13ukb9js">
+      <div className="ldio-nawj84fd2cd">
         <div></div>
       </div>
     </div>
