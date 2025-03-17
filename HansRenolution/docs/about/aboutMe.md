@@ -26,6 +26,10 @@ authors: H.J
 
 # 我會什麼？
 
+## 「Docker技術」
+
+Dockerfile撰寫、在網路限制下安裝 Docker Desktop
+
 ## 「Web相關技術」
 
 .Net, .Net Core, JavaScript, JQuery, Ajax, Bootstrap, KendoUI, Swagger, Dapper, RestSharp, Reactjs, Vuejs

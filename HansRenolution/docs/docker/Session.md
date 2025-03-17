@@ -173,7 +173,7 @@ xxx/. xxx目錄下所有檔案
 npm install module 空間站很大
 要改 .dockerignore
 skl-froint/node-modules  
-docker run -d --name -rm -p 8080:8080 <imageName>
+docker run -d --name -rm -p 8080:8080 
 
 docker exec -it  skl-docker ls -laF /app/publish/wwwwroot/browser
 確認網頁有call 進去
@@ -193,9 +193,6 @@ https://tinyurl.com/yc7s6fe6
 https://github.com/srcmesh-workshop/docker-workshop
 
 連線方式:
-
-1. ssh <user-name>:35.201.199.122
-2. https://35.201.199.122:8080 (以同樣帳密登入)
 
 
 Grafana: http://35.201.170.213:3000/
@@ -242,8 +239,6 @@ srcmesh-123456789
 
 連線方式:
 
-1. ssh <user-name>:35.201.199.122
-2. https://35.201.199.122:8080 (以同樣帳密登入)
 
 
 Grafana: http://35.201.170.213:3000/
@@ -254,10 +249,6 @@ Graylog: http://35.201.170.213:9000/
 
 "https://github.com/srcmesh-workshop/docker-workshop
 
-連線方式:
-
-1. ssh <user-name>@35.201.207.248
-2. https://35.201.207.248:8080 (以同樣帳密登入)
 
 
 Grafana: http://35.201.170.213:3000/
@@ -317,10 +308,6 @@ OcrHH23bD9EzDjcRhR
 
 連線方式:
 
-1. ssh <user-name>@<IP>
-2. https://<IP>:8080 (以同樣帳密登入)
-
-"						
 
   nginx:
     image: nginx:latest
@@ -435,7 +422,6 @@ root 權限
 
 "https://github.com/srcmesh-workshop/docker-workshop
 
-連線方式: ssh <user-name>@<IP>
 
 Prometheus: http://34.80.76.80:3000
 Graylog: http://34.80.76.80:9000
