@@ -455,9 +455,7 @@ ssh user-1@34.80.76.80
 srcmesh-123456789
 runner-1
 
-#### github token
-7 天 token
-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
+
 
 nginx:latest
 wordpress:latest
