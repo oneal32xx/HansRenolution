@@ -18,3 +18,5 @@ docker exec -it sql1 "bash"
 
 # 進入 sqlcmd 命令列環境
 docker exec -it sql1 /opt/mssql-tools/bin/sqlcmd -U SA -P Ver7CompleXPW -W
+
+docker run --platform linux/amd64 -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Ver7CompleXPW" -p 1433:1433 --name sql1 -d mcr.microsoft.com/mssql/server:2019-latest

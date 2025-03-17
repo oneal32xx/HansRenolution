@@ -56,7 +56,7 @@ Windows 系列, Mac OS系列, Android, iOS
 
 # 現職在做什麼？
 
-## 新光人壽數位資訊部- 系統設計師
+## 新光人壽數位資訊部- 架構專案襄理
 
 2013/12~Present
 
@@ -75,16 +75,18 @@ Windows 系列, Mac OS系列, Android, iOS
 * 2021 : Ｅ調查App專案主要成員，後端服務全包，目的將現有紙本生調流程APP化，以角色維度做模組化設計，完美解決不同表單共同欄位的問題。
 * 2022 : 保單健診專案 ScrumMaster，改善舊版本建議書冗長的保單健診流程，使用OCR技術提升商品建檔速度外，並提升保單資料檢索效能與精準度，以及搭配商品策略調整保障分析結構，加速保單健診效率
 * 2023 :職務輪調轉為負責公司內部系統，差勤管理系統 Web、行動辦公室 App、行政表單 Web、員工持股信託系統管理者，負責找出現行痛點並規劃系統改善方案以及提供團隊技術支援
+* 2024 :擔任部門實習生訓練窗口，規劃實習生訓練地圖、訓練活動;流程引擎自行開發研究POC(Net 8、 Elsaworkflow 3、 Vue 3);負責業界首創行政法務系統架構規劃及系統設計，專案主力開發者(Net 8);資訊中心高階會議技術分享-DDD微服務拆分方法論主講人;容器化建置專案成員-負責將既有專案容器化並透過CICD自動化部署
 
 〖開發經驗〗
-* .Net、.Net Core、MSSQL - 10 年
+* .Net Framework、.Net Core、MSSQL - 10年
+* React、Vue (2023至今)
 * Android(Java) - 2年 (2017~2019)
 * iOS(Swift) - 2年 (2017~2019)
 
 〖接觸過的系統〗
 * 內部網站：業務員網站、保險工會通報系統、理賠收據建檔系統、線上專家、行政查詢系統、差勤管理系統、行政表單系統、員工持股信託系統、抽獎系統
 * 外部網站：夥伴關係管理系統(保經公司)、補辦Email發送系統、商機系統、智能保單健診系統
-* App：E動秘書(Net)、數位領航家(Android、iOS、Net)、數位管理家(iOS、Net)、招募(iOS、Net)、客戶儀表板(iOS、Net)、E調查(iOS、Net)、行動辦公室 App
+* App：E動秘書(Net)、數位領航家(Android、iOS、Net)、數位管理家(iOS、Net)、招募(iOS、Net)、客戶儀表板(iOS、Net)、E調查(iOS、Net)、行動辦公室 App (Cordova)
 
 ## 「專案經歷」
 
@@ -228,3 +230,19 @@ Windows 系列, Mac OS系列, Android, iOS
   - 找出痛點並規劃系統改善方案：包含系統架構重構、程式碼重構、SQL效能優化，分析系統潛在問題並提出解決方案。
   - 團隊技術支援：在團隊有技術問題時給予適時協助，例如提供良好的程式結構及撰寫方式。
   - 規劃跨系統 Log 架構：因舊系統並無良好 Log，故提出 Seq Log Server 解決方案，並整合 LineNotify 執行系統異常通知。
+
+
+### 行政法務系統 Web、印刷品系統 Web、企業流程引擎汰換案 - 2024～Present (新專案)
+
+* 年份：2024~ Present
+* 行政法務系統 Web (Net 8 MVC)
+* 印刷品系統 Web (React、Net 8)
+* 企業流程引擎汰換案 (Net 8、 Vue、Elsaworkflow)
+* 專案模式：敏捷開發(Scrum)
+* 擔任的腳色： 架構師
+* 使用技術：.Net Core WebApi, Reactjs, TFS Scrum Model, Dapper, Serilog, Seq, Docker, 
+* 使用工具: Visual Studio 2022, SQL Server Management Studio, TFS Team, Visual Studio Code, Docker Desktop
+
+- 工作內容說明：
+  - 包含系統架構設計規劃、技術選型評估、團隊技術指導、新技術研究與導入、容器化實作、知識分享等
+  - 團隊技術支援：在團隊有技術問題時給予適時協助，例如提供良好的程式結構及撰寫方式。
