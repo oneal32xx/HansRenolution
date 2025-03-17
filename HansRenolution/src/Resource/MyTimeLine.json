@@ -1,5 +1,17 @@
 [
-    {
+  {
+    "title": "架構專案襄理",
+    "name": "新光人壽-數位資訊部",
+    "icon": "img/shinkong.jpeg",
+    "iconBg": "#fff",
+    "date": "2024/01 - present",
+    "points": [
+      "擔任部門實習生窗口，規劃實習生訓練地圖",
+      "流程引擎研究",
+      ""
+    ]
+  },  
+  {
       "title": "系統設計師",
       "name": "新光人壽-數位資訊部",
       "icon": "img/shinkong.jpeg",
